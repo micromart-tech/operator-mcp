@@ -1,0 +1,10 @@
+{
+  "name": "micromart",
+  "displayName": "Micromart",
+  "version": "0.1.0",
+  "description": "Micromart operator MCP: read-only analytics for your stores, products, planograms and restocks, plus guided analysis skills.",
+  "author": {
+    "name": "Micromart"
+  },
+  "mcpServers": "./.mcp.json"
+}

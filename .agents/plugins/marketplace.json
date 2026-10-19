@@ -1,0 +1,20 @@
+{
+  "name": "micromart",
+  "interface": {
+    "displayName": "Micromart"
+  },
+  "plugins": [
+    {
+      "name": "micromart",
+      "source": {
+        "source": "local",
+        "path": "./plugins/micromart"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

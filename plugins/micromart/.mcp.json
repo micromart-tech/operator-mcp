@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "micromart": {
+      "type": "http",
+      "url": "https://classic.micromart.com/api/enterprise/v1/mcp",
+      "oauth_resource": "https://classic.micromart.com/api/enterprise/v1/mcp"
+    }
+  }
+}

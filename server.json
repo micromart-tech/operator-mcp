@@ -1,0 +1,23 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "name": "io.github.micromart-tech/operator-mcp",
+  "title": "Micromart",
+  "description": "Read-only business analytics for Micromart smart-store operators: sales, products, stores, planograms, inventory, and restock planning.",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/micromart-tech/operator-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/micromart-tech/operator-mcp/main/icon.svg",
+      "mimeType": "image/svg+xml"
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://classic.micromart.com/api/enterprise/v1/mcp"
+    }
+  ]
+}

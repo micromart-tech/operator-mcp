@@ -1,0 +1,14 @@
+{
+  "name": "micromart",
+  "description": "Micromart operator tools",
+  "owner": {
+    "name": "Micromart"
+  },
+  "plugins": [
+    {
+      "name": "micromart",
+      "source": "./plugins/micromart",
+      "description": "Sales, product, planogram, and restock analytics for your Micromart stores, plus guided analysis skills."
+    }
+  ]
+}

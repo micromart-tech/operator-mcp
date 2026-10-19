@@ -1,0 +1,33 @@
+{
+  "name": "micromart",
+  "version": "0.1.0",
+  "description": "Read-only analytics for Micromart operators: sales trends, store and product rankings, planograms, stockouts, and restock planning.",
+  "author": {
+    "name": "Micromart",
+    "url": "https://www.micromart.com"
+  },
+  "homepage": "https://www.micromart.com",
+  "repository": "https://github.com/micromart-tech/operator-mcp",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Micromart",
+    "shortDescription": "Ask questions about your Micromart stores",
+    "longDescription": "Read-only analytics for Micromart smart-store operators: sales trends and comparisons, store and product rankings, planogram layouts and pending changes, stockouts, and restock planning.",
+    "developerName": "Micromart",
+    "category": "Productivity",
+    "capabilities": [
+      "Read"
+    ],
+    "websiteURL": "https://www.micromart.com",
+    "defaultPrompt": [
+      "How were sales last week versus the week before?",
+      "Which of my stores are underperforming this month?",
+      "Which cabinets should I restock first today?"
+    ],
+    "brandColor": "#98EDB1",
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png",
+    "logoDark": "./assets/logo.png",
+    "screenshots": []
+  }
+}

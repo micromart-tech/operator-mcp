@@ -1,0 +1,14 @@
+{
+  "name": "micromart",
+  "version": "0.1.0",
+  "description": "Read-only analytics for Micromart operators: sales trends, store and product rankings, planograms, stockouts, and restock planning.",
+  "mcpServers": {
+    "micromart": {
+      "httpUrl": "https://classic.micromart.com/api/enterprise/v1/mcp",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}
